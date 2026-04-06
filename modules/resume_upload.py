@@ -28,7 +28,7 @@ def run():
         jd_text = col_a.text_area("Job Description", height=150)
         selected_role = col_b.text_input("Role Title")
 
-    st.markdown("<br>##### 2. Upload Resumes", unsafe_allow_html=True)
+    st.markdown(" 2. Upload Resumes", unsafe_allow_html=True)
     files = st.file_uploader("PDF / DOCX (multiple allowed)",
                              type=["pdf","docx"], accept_multiple_files=True)
 
